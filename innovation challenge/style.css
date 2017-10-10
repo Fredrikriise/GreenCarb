@@ -1,10 +1,6 @@
+/* Body */
 body {
-
-}
-
-h1 {
- color: black;
- position: center;
+  background-image: url();
 }
 
 /* Navbar */
@@ -41,3 +37,31 @@ li a:hover {
   color: white!important;
 }
 
+/* Header */
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-variant: small-caps;
+  margin: 2px;
+  letter-spacing: 6px;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Paragrafer */
+
+.p1, .p2, .p3, .p4 {
+  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-left: 350px;
+  margin-right: 350px;
+  text-align: center;
+}
