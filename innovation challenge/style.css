@@ -5,6 +5,17 @@ body {
 
 /* Navbar */
 
+/* Forsøk på fixed navbar*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;

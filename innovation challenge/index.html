@@ -4,16 +4,18 @@
     <title>GreenCarb</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
+  <body onscroll="myFunction()">
 
     <h1 id="Home" style="background-image:url('https://www.awarenessdays.com/wp-content/uploads/2016/12/iStock-473454180-1024x767.jpg');color:#ffffff;height:230px;margin:0%;">Greencarb </br>A green hydroarbon future</h1>
     <!-- h1 image from:   -->
+    <div id="navBar">
     <ul class="navBar">
         <li><a class="navigationbar" href="#home">Home</a></li>
         <li><a href="#Problem">Problem</a></li>
         <li><a href="#Løsning">Løsning</a></li>
         <li><a href="#Fordeler">Fordeler</a></li>
     </ul>
+    </div>
 
     <h2 id="Problem">Problem</h2>
     <p class="p1">Det behøves drastiske endringer i dagens klimautslipp. 
@@ -53,6 +55,20 @@
       som både er nødvendig for en klimanøytral by, og spesielt innovativt. 
           
       </p>
+
+      <!-- Scriptgreier for stickybar-->
+      <script>
+        var navbar = document.getElementById("navBar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
 
   </body>
 </html>
