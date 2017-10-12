@@ -1,18 +1,52 @@
 /* Body */
+
 body {
-  background-image: url();
+  background-image: url("blurredbackground.jpg");
+  background-repeat: no-repeat;
+  margin: 0;
 }
+
 
 /* Navbar */
 
+
+/* Forsøk på fixed navbar*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+
+/* Logo navbar */
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 16px;
+}
+
+.navbar-brand {
+  float: right;
+  padding-right: 50px;
+}
+
+
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 2px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0px;
   background-color: #5C5656;
   overflow: hidden;
   color: #000;
+  z-index: 999;
+  width: 100%;
+  position: fixed;
 }
 
 li {
@@ -23,8 +57,9 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 35px;
   text-decoration: none;
+  font-size: 20px;
 }
 
 li a:hover {
@@ -37,6 +72,7 @@ li a:hover {
   color: white!important;
 }
 
+
 /* Header */
 
 h1 {
@@ -44,7 +80,6 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80px;
   font-variant: small-caps;
-  margin: 2px;
   letter-spacing: 6px;
   text-shadow: 2px 2px black;
 }
@@ -58,10 +93,46 @@ h2 {
 
 /* Paragrafer */
 
-.p1, .p2, .p3, .p4 {
+.p1,
+.p2,
+.p3,
+.p4 {
   margin-bottom: 50px;
   margin-top: 15px;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 400px;
+  margin-right: 400px;
   text-align: center;
+  font-size: 20px;
+  position: relative;
+}
+
+
+/* Text med link */
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    color: #70b028;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+ab:hover {
+    position: relative;
+}
+
+a span:hover {
+    position: absoulte;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    background-color: #8CF382;
+    padding: 10px;
+    text-align: center;
+    display: none;
 }
