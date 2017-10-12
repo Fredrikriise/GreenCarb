@@ -9,26 +9,18 @@ body {
 
 /* Navbar */
 
-<<<<<<< HEAD
-
-/* Forsøk på fixed navbar*/
-
-=======
-/* Forsøk på fixed navbar*/
->>>>>>> ba4b362a43fb8247c20845eedb4679f009537dad
+/*Forsøk på fixed navbar*/
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-<<<<<<< HEAD
-.sticky+.content {
+.sticky + .content {
   padding-top: 60px;
 }
 
-
-/* Logo navbar */
+/* logo navbar */
 .logo {
   display: inline-block;
   vertical-align: top;
@@ -40,13 +32,6 @@ body {
   padding-right: 50px;
 }
 
-
-=======
-.sticky + .content {
-  padding-top: 60px;
-}
-
->>>>>>> ba4b362a43fb8247c20845eedb4679f009537dad
 ul {
   list-style-type: none;
   margin-top: 0;
@@ -137,13 +122,3 @@ ab:hover {
     position: relative;
 }
 
-a span:hover {
-    position: absoulte;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-    background-color: #8CF382;
-    padding: 10px;
-    text-align: center;
-    display: none;
-}
