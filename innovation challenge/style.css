@@ -9,15 +9,20 @@ body {
 
 /* Navbar */
 
+<<<<<<< HEAD
 
 /* Forsøk på fixed navbar*/
 
+=======
+/* Forsøk på fixed navbar*/
+>>>>>>> ba4b362a43fb8247c20845eedb4679f009537dad
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+<<<<<<< HEAD
 .sticky+.content {
   padding-top: 60px;
 }
@@ -36,6 +41,12 @@ body {
 }
 
 
+=======
+.sticky + .content {
+  padding-top: 60px;
+}
+
+>>>>>>> ba4b362a43fb8247c20845eedb4679f009537dad
 ul {
   list-style-type: none;
   margin-top: 0;
