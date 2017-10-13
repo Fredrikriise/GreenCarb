@@ -20,10 +20,16 @@ body {
 }
 
 /* Logo navigation-bar */
-.logo {
+
+/* .logo {
   display: inline-block;
   vertical-align: top;
   padding: 10px 16px;
+} */
+
+.navbar-flag {
+  float: right;
+  padding-right: 150px;
 }
 
 .navbar-brand {
@@ -42,6 +48,7 @@ ul {
   z-index: 999;
   width: 100%;
   position: fixed;
+  max-height: 43px;
 }
 
 li {
@@ -91,8 +98,9 @@ h2 {
 .p1, .p2, .p3, .p4 {
   margin-bottom: 50px;
   margin-top: 15px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
   text-align: center;
   font-size: 20px;
   position: relative;
