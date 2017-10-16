@@ -150,8 +150,8 @@ h2 {
   text-shadow: 1px 1px #ffffff;
   max-width: 500px;
   color:#70b028;
-  margin-right: auto;
-  margin-left: auto;
+  padding-right: auto;
+  padding-left: auto;
 }
 
 
