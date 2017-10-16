@@ -152,8 +152,8 @@ h2 {
   color:#70b028;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 45px;
+  padding-bottom: auto;
 }
 
 
@@ -171,7 +171,7 @@ h2 {
 
 /* Column */
 
-* {
+  * {
   box-sizing: border-box;
 }
 
@@ -207,4 +207,12 @@ a:hover {
 
 ab:hover {
     position: relative;
+}
+
+.border {
+  border: 10px groove rgb(56, 211, 56);
+  width: 650px;
+  padding-top: 0px; 
+  padding-bottom: 25px; 
+  margin-top: 0px;
 }
