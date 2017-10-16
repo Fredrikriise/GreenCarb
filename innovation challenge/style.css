@@ -148,9 +148,10 @@ h2 {
   font-style: italic;
   position: relative;
   text-shadow: 1px 1px #ffffff;
-  max-width: 100%;
+  max-width: 500px;
   color:#70b028;
-  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
