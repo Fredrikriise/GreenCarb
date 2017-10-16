@@ -210,10 +210,8 @@ ab:hover {
 }
 
 .border {
-  border: 10px groove rgb(56, 211, 56);
+  border: 7px groove rgb(56, 211, 56);
   width: 650px;
-  padding-top: 0px; 
   padding-bottom: 25px; 
-  margin-top: 0px;
   height: 750px;
 }
