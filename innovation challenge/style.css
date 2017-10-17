@@ -1,12 +1,229 @@
-body {
-  background-color: black;
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+
+/* .fancy code from https://css-tricks.com/line-on-sides-headers/ */
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+} 
+
+.fancy {
+  font-family: 'Cinzel Decorative';
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 50px;
 }
 
-h1 {
-  color: red;
+/* Body */
+
+body {
+  background-image: url("evtbackgroundimg1.jpg");
+  background-repeat: no-repeat;
+  margin: 0;
+  overflow-x: hidden; 
+}
+
+/* Navigation-bar */
+
+/* Logo navigation-bar */
+
+/* .logo {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 16px;
+} */
+
+.navbar-flag {
+  float: right;
+  padding-right: 150px;
+}
+
+.navbar-brand {
+  float: right;
+  padding-right: 50px;
 }
 
 ul {
-    color: white;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  background-color: #5C5656;
+  overflow: hidden;
+  color: #000;
+  z-index: 999;
+  width: 100%;
+  position: fixed;
+  max-height: 43px;
 }
-|
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+}
+
+.navBar a {
+  color: white!important;
+}
+
+
+/* Header */
+
+h1 {
+  font-family: 'Cinzel Decorative';
+  font-style: italic;
+  text-align: center;
+  font-size: 80px;
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 6px;
+  text-shadow: 2px 2px #ffffff;
+  max-width: 100%;
+  color:#70b028;
+  height: 190px;
+  padding:10px; 
+  padding-top: 80px;
+  margin: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  position: relative;
+  top: 20%;
+}
+/*
+h2 {
+  font-size: 25px;
+  font-family: 'Cinzel Decorative';
+  font-style: italic;
+  position: relative;
+  text-shadow: 1px 1px #ffffff;
+  max-width: 500px;
+  color:#70b028;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 45px;
+  padding-bottom: auto;
+}*/
+
+
+/* Paragraphs */
+
+/*
+.p1, .p2, .p3, .p4 {
+  margin-bottom: 120px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  font-size: 20px;
+  position: relative;
+}*/
+
+/* Column */
+
+  * {
+  box-sizing: border-box;
+}
+
+.column, .column2 {
+  float: left;
+  width: 50%;
+  padding: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width:600px) {
+  .column, .column2 {
+    width: 100%
+  }
+}
+
+
+/* Text with link */
+
+a:hover, a:visited, a:link, a:active {
+    color: #70b028;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4a800e;
+    background-color: transparent;
+}
+
+ab:hover {
+    position: relative;
+}
+
+.border {
+  border: 7px groove rgb(56, 211, 56);
+  width: 600px;
+  padding-bottom: 25px; 
+  height: 750px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+/*
+Sections
+*/
+
+.allebokser {
+  max-width: 1000px;
+  margin: auto;
+  border: 7px groove rgb(56, 211, 56);
+}
+
+.sections {
+  width: 48.99999%;
+  display: inline-block;
+}
+
+@media (max-width:800px) {
+  .sections {
+    padding: 0 30px;
+    display: block;
+    width: 100%;
+  }
+}
