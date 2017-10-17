@@ -161,13 +161,13 @@ h2 {
   box-sizing: border-box;
 }
 
-.column, .column2 {
+/*.column, .column2 {
   float: left;
   width: 50%;
   padding: 40px;
-}
+}*/
 
-.row:after {
+/*.row:after {
   content: "";
   display: table;
   clear: both;
@@ -177,7 +177,7 @@ h2 {
   .column, .column2 {
     width: 100%
   }
-}
+}*/
 
 
 /* Text with link */
@@ -196,14 +196,14 @@ ab:hover {
     position: relative;
 }
 
-.border {
+/*.border {
   border: 7px groove rgb(56, 211, 56);
   width: 600px;
   padding-bottom: 25px; 
   height: 750px;
   margin-bottom: 25px;
   background-color: white;
-}
+}*/
 
 /*
 Sections
@@ -215,7 +215,7 @@ Sections
   }
 
 .sections {
-  width: 48.999999%;
+  width: 48.99999%;
   display: inline-block;
   border: 1px solid black;
   background-color: white;
