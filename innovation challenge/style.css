@@ -211,8 +211,9 @@ ab:hover {
 
 .border {
   border: 7px groove rgb(56, 211, 56);
-  width: 650px;
+  width: 600px;
   padding-bottom: 25px; 
   height: 750px;
   margin-bottom: 25px;
+  background-color: white;
 }
